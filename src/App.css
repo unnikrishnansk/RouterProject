@@ -1,38 +1,346 @@
-.App {
+.navbar{
+  /* border: 1px solid red; */
+  height: 80px;
+  width: 100%;
+  display: flex;
+  background-color: rgb(0,46,37);
+}
+
+.logodiv{
+  /* border: 1px solid green; */
+  height: 45px;
+  width: 45px;
+  margin-top: 20px;
+}
+
+.logo{
+  height: 40px;
+  width: 40px;
+}
+
+.leftnavbar{
+  /* border: 1px solid blue; */
+  height: 80px;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.rightnavbar{
+  /* border: 1px solid black; */
+  height: 80px;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20%;
+}
+
+.startfreetrialdiv{
+  height: 50px;
+  width: 150px;
+  /* border: 1px solid red; */
+  margin-top: 13px;
+}
+
+.startfreetrialbttn{
+  height: 50px;
+  width: 150px;
+  border-radius: 7px;
+  background-color: rgb(0,128,96);
+  font-family: sans-serif;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  border: 0;
+}
+
+.menubttn{
+  color: rgb(204,205,215);
+  font-weight: bold;
+}
+
+.menubttn:hover{
+  color : white;
+}
+.menubttndiv{
+  margin-top: 15px;
+}
+
+.navbarlinks{
+  color: rgb(204,205,215);
+  font-weight: bold;
+}
+
+.navbarlinks:hover{
+  color : white;
+}
+
+.menulinkndiv{
+  margin-top: 25px;
+}
+
+.homeimg{
+  /* border: 1px solid red; */
+  height: 250px;
+  width: 100%;
+}
+.img{
+  height: 250px;
+  width: 100%;
+}
+
+.headingdiv{
+  /* border: 1px solid green; */
+  height: 250px;
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.homeheading{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-top: 35px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.paragraph{
+  font-size: 20px;
+  margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.boxdiv{
+  /* border: 1px solid black; */
+  height: 350px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+}
+
+.boxdivleft{
+  /* border: 1px solid blue; */
+  height: 350px;
+  width: 50%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+}
+
+.boxdivright{
+  /* border: 1px solid red; */
+  height: 350px;
+  width: 50%;
+  text-align: center;
+}
+
+.boxdivleftimg{
+  height: 300px;
+  width: 80%;
+  margin-top: 25px;
+  margin-left: 10%;
+  border-radius: 5px;
+}
+
+.footer{
+  /* border: 1px solid blue; */
+  height: 450px;
+  width: 100%;
+  display: flex;
+  background-color: rgb(0,46,37);
+}
+
+.footerinside{
+  /* border: 1px solid red; */
+  height: 450px;
+  width: 16%;
+  margin-left: 6px;
+  text-align: center;
+}
+
+.footerheading{
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 30px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footerpara{
+  font-family: sans-serif;
+  font-size: 12px;
+  margin-top: 15px;
+  color: white
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footerparatop{
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 55px;
+  color: white;
 }
+
+.login{
+  /* border: 1px solid red; */
+  height: 550px;
+  width: 100%;
+  display: flex;
+  background-color: rgb(0,46,37);
+}
+
+.loginleft{
+  /* border: 1px solid blue; */
+  height: 550px;
+  width: 50%;
+}
+
+.loginright{
+  /* border: 1px solid blue; */
+  height: 550px;
+  width: 50%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQptO6saWCW_R59lboqRsDrkMNMO_NNeLTJjMc9N3rxShpIbN2o");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logindetailsdiv{
+  /* border: 1px solid red; */
+  height: 500px;
+  width: 75%;
+  margin: auto;
+  margin-top: 25px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.logindetailslogo{
+  /* border: 1px solid gray; */
+  height: 60px;
+  margin-top: 25px;
+  display: flex;
+}
+
+.loginlogo{
+  /* border: 1px solid red; */
+  height: 60px;
+  width: 60px;
+  margin-left: 20px;
+}
+
+.loginlogoimg{
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.loginheading{
+  /* border: 1px solid blue; */
+  height: 60px;
+  width: 120px;
+  margin-left: 5px;
+}
+
+.loginheadingpara{
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.continuediv{
+  /* border: 1px solid blue; */
+  height: 80px;
+  margin-top: 20px;
+}
+
+.continuelogindiv{
+  /* border: 1px solid red; */
+  height: 45px;
+  width: 120px;
+  margin-left: 20px;
+}
+
+.continueloginhead{
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.continuetodiv{
+  /* border: 1px solid green; */
+  height: 35px;
+  margin-left: 20px;
+}
+
+.continuetopara{
+  font-family: sans-serif;
+  color: grey;
+}
+
+.loginemaildiv{
+  /* border: 1px solid blue; */
+  height: 60px;
+  margin-top: 10px;
+  width: 90%;
+  margin-left: 20px;
+}
+
+.loginmailhead{
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.logininput{
+  border: 2px solid rgb(0,46,37);
+  height: 35px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.continuebuttondiv{
+  /* border: 1px solid red; */
+  height: 35px;
+  width: 90%;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.continuebutton{
+  height: 35px;
+  width: 100%;
+  background-color: rgb(0,46,37);
+  border-radius: 5px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.signindiv{
+  border: 1px solid grey;
+  height: 35px;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.signinhead{
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 5px;
+  color: grey;
+}
+
+.signinlogodiv{
+  height: 35px;
+  width: 35px;
+}
+
+.signinlogoinside{
+  margin-top: 5px;
+}
+
+
